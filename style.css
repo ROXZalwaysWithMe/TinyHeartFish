@@ -1,0 +1,50 @@
+body {
+    padding-top: 10px;
+}
+
+.all_bg {
+    width: 800px;
+    height: 600px;
+    margin: 0 auto;
+}
+
+#allcanvas {
+    position: relative;
+    width: 800px;
+    height: 600px;
+    margin: 0;
+}
+
+#switch {
+    position: absolute;
+    text-align: center;
+    border: 0;
+    top: 25%;
+    left: 250px;
+    z-index: 2;
+    width: 300px;
+    height: 80px;
+    font-family: Verdana;
+    letter-spacing: 10px;
+    font-size: 50px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, .3);
+}
+
+#switch:focus{
+    
+}
+
+#canvas1 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+}
+
+#canvas2 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 0;
+}
